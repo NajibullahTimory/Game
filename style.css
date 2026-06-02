@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#ball {
+    background-color: rgb(23, 10, 89);
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px 10px rgb(40, 40, 145);
+    position: absolute;
+    transition: 1s;
+}
+
+h2 {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    color: white;
+}
+
+#ball:hover {
+    cursor: pointer;
+}
+
+#ball:active {
+    background-color: red;
+    box-shadow: 1px 1px 10px 5px red;
+}
